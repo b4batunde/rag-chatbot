@@ -1,0 +1,72 @@
+Python Basics: A Mini Guide
+
+1. Variables and Data Types:
+Python is dynamically typed. You can assign values without declaring types:
+    name = "Alice"
+    age = 25
+    pi = 3.14
+
+Common data types include int, float, str, bool, list, tuple, dict, and set.
+
+2. Conditional Statements:
+Use if, elif, and else for control flow:
+    if age > 18:
+        print("Adult")
+    elif age == 18:
+        print("Just 18")
+    else:
+        print("Minor")
+
+3. Loops:
+Use for loops for iterating over sequences:
+    for item in [1, 2, 3]:
+        print(item)
+
+Use while loops for repeated execution:
+    count = 0
+    while count < 5:
+        print(count)
+        count += 1
+
+4. Functions:
+Define functions using the def keyword:
+    def greet(name):
+        return f"Hello, {name}!"
+
+5. Lists and Dictionaries:
+Lists store ordered items:
+    fruits = ["apple", "banana", "cherry"]
+
+Dictionaries store key-value pairs:
+    capitals = {"USA": "Washington", "India": "New Delhi"}
+
+6. File Handling:
+Use open() to read/write files:
+    with open("file.txt", "r") as file:
+        content = file.read()
+
+7. Classes and Objects:
+Python supports OOP:
+    class Person:
+        def __init__(self, name):
+            self.name = name
+        def greet(self):
+            print(f"Hi, I'm {self.name}")
+
+8. Exceptions:
+Use try-except to handle errors:
+    try:
+        result = 10 / 0
+    except ZeroDivisionError:
+        print("Cannot divide by zero")
+
+9. Modules and Packages:
+Use import to include external modules:
+    import math
+    print(math.sqrt(16))
+
+10. Popular Libraries:
+- numpy for numerical computing
+- pandas for data analysis
+- matplotlib for plotting
+- flask for web apps
