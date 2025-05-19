@@ -7,7 +7,7 @@ from langchain.chains import RetrievalQA
 import os
 
 # OpenAI API Key
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 
 # Loading data
 loader = TextLoader("data/python_guide.txt")
