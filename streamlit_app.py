@@ -8,7 +8,7 @@ from langchain.chains import RetrievalQA
 import os
 
 # Loading API key
-os.environ["OPENAI_API_KEY"] = st.secrets["sk-UTfxbSzL0c-wh_DAWCy_QAGnxQ-4M0MgVmG9IOrH-0p7r2K4lvg71IE5rbIgBKIFeZWIwzWPSzT3BlbkFJUvcA9LgGauEytUbzrGdtpLs05kXUTn8BKCFU0DJgk6tc9rjXe2Ljuz2JI6i4z-b4xdnhP5MfkA"]
+os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 @st.cache_resource
 def load_qa_chain():
     loader = TextLoader("data/python_guide.txt")
